@@ -12,8 +12,7 @@ Key challenges of the dataset include missing values, skewed distributions, and 
 2. **Missing Value Imputation** – Using statistical and biological reasoning to fill missing data.  
 3. **Normality Testing** – Applying Shapiro-Wilk, Kolmogorov-Smirnov, and visualizations (histograms, QQ plots).  
 4. **Outlier Detection** – Using multiple methods:  
-   - IQR  
-   - Z-Score  
+   - KNN  
    - Isolation Forest  
    - Local Outlier Factor (LOF)  
    - DBSCAN  
