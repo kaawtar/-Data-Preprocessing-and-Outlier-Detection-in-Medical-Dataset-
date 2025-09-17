@@ -1,12 +1,12 @@
 # Data Preprocessing and Outlier Detection in Medical Dataset
 This project focuses on cleaning and preprocessing a medical dataset to ensure data quality before applying machine learning techniques. The main objectives are handling missing values, testing data normality, detecting and interpreting outliers, and preparing the dataset for future modeling in healthcare applications.  
-## 📊 Dataset  
+##  Dataset  
 
 The dataset used comes from **KAGGLE** (Pima Indians Diabetes Database).  
 It contains clinical features such as Glucose, Blood Pressure, Insulin, BMI, Age, etc., with the target variable `Outcome` (0 = non-diabetic, 1 = diabetic).  
 
 Key challenges of the dataset include missing values, skewed distributions, and potential biological/clinical outliers.
-## 🔄 Project Workflow  
+## Project Workflow  
 
 1. **Exploratory Data Analysis (EDA)** – Understanding variable distributions and relationships.  
 2. **Missing Value Imputation** – Using statistical and biological reasoning to fill missing data.  
@@ -18,13 +18,13 @@ Key challenges of the dataset include missing values, skewed distributions, and 
    - DBSCAN  
 5. **Interpretation** – Linking detected outliers to biological plausibility (e.g., extreme glucose or insulin levels).  
 6. **Final Clean Dataset** – Ready for machine learning applications.  
-## 🛠️ Technologies Used  
+##  Technologies Used  
 
 - **Python** (Pandas, NumPy, Scikit-learn)  
 - **Matplotlib & Seaborn** (visualization)  
 - **SciPy** (statistical testing)  
 - **Scikit-learn** (Isolation Forest, LOF)  
-## ✅ Results  
+##  Results  
 
 - Missing values were successfully imputed using a strategy combining KNN and biological reasoning.  
 - Normality testing confirmed that most variables deviate from Gaussian distribution → requiring robust methods.  
